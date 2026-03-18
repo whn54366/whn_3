@@ -51,6 +51,7 @@
         display-offset = <0>;
         multiplex-ratio = <31>;
         prechargep = <0x22>;
+        ready-time-ms = <20>;
         segment-remap;
         com-invdir;
         com-sequential;
