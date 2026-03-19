@@ -2,4 +2,3 @@ name: zmk-keyboard-whn-ff
 build:
   settings:
     board_root: .
-    snippet_root: .

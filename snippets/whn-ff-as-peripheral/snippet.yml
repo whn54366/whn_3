@@ -1,4 +1,0 @@
-name: whn-ff-as-peripheral
-append:
-  EXTRA_CONF_FILE: whn-ff-as-peripheral.conf
-  EXTRA_DTC_OVERLAY_FILE: whn-ff-as-peripheral.overlay
