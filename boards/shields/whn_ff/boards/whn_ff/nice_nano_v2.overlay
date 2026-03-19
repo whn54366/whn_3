@@ -49,8 +49,8 @@
         segment-offset = <0>;
         page-offset = <0>;
         display-offset = <0>;
-        multiplex-ratio = <63>;
-        prechargep = <0x22>;
+        multiplex-ratio = <15>;
+        prechargep = <0x2f>;
         segment-remap;
         com-invdir;
         com-sequential;
