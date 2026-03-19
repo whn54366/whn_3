@@ -49,7 +49,7 @@
         segment-offset = <0>;
         page-offset = <0>;
         display-offset = <0>;
-        multiplex-ratio = <15>;
+        multiplex-ratio = <31>;
         prechargep = <0x2f>;
         segment-remap;
         com-invdir;
