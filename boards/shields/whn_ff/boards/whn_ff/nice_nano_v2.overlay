@@ -34,7 +34,7 @@
   pinctrl-0 = <&i2c0_default>;
   pinctrl-1 = <&i2c0_sleep>;
   pinctrl-names = "default", "sleep";
-  clock-frequency = <I2C_BITRATE_STANDARD>;
+  clock-frequency = <I2C_BITRATE_FAST>;
 };
 
 // devices on i2c0
@@ -42,7 +42,7 @@
 &i2c0 {
     oled: ssd1306@3c {
         compatible = "solomon,ssd1306fb";
-        reg = <0x3d>;
+        reg = <0x3c>;
         width = <128>;
         height = <64>;
 
@@ -50,7 +50,7 @@
         page-offset = <0>;
         display-offset = <0>;
         multiplex-ratio = <31>;
-        prechargep = <0x2f>;
+        prechargep = <0x22>;
         segment-remap;
         com-invdir;
         com-sequential;
