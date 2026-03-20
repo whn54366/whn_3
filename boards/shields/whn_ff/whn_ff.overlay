@@ -7,19 +7,19 @@
         wakeup-source;
 
         col-gpios
-            = <&pro_micro 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&pro_micro 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&pro_micro 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&pro_micro 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&pro_micro 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&pro_micro 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&pro_micro 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            = <&pro_micro 10 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 16 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 14 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 6 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 9 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 8 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 7 GPIO_ACTIVE_HIGH>
             ;
 
         row-gpios
-            = <&gpio1 7 GPIO_ACTIVE_LOW>
-            , <&gpio1 2 GPIO_ACTIVE_LOW>
-            , <&gpio1 1 GPIO_ACTIVE_LOW>
+            = <&gpio1 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio1 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio1 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
 };
